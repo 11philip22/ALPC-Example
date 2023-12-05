@@ -1,0 +1,7 @@
+﻿  Client.c
+C:\Users\philip\source\repos\AlpcExample\AlpcClient\Client.c(51,19): warning C4047: 'function': 'char *' differs in levels of indirection from 'CHAR (*)[256]'
+C:\Users\philip\source\repos\AlpcExample\AlpcClient\Client.c(51,19): warning C4024: 'fgets': different types for formal and actual parameter 1
+C:\Users\philip\source\repos\AlpcExample\AlpcClient\Client.c(52,39): warning C4267: '=': conversion from 'size_t' to 'CSHORT', possible loss of data
+C:\Users\philip\source\repos\AlpcExample\AlpcClient\Client.c(28,21): warning C4101: 'nLen': unreferenced local variable
+C:\Users\philip\source\repos\AlpcExample\AlpcClient\Client.c(25,21): warning C4101: 'pmReceive': unreferenced local variable
+  AlpcClient.vcxproj -> C:\Users\philip\source\repos\AlpcExample\x64\Debug\AlpcClient.exe

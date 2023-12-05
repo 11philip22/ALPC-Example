@@ -1,0 +1,3 @@
+﻿  Server.c
+C:\Users\philip\source\repos\AlpcExample\AlpcServer\Server.c(94,37): warning C4133: 'function': incompatible types - from 'void (__cdecl *)(LPCWSTR)' to 'LPTHREAD_START_ROUTINE'
+  AlpcServer.vcxproj -> C:\Users\philip\source\repos\AlpcExample\x64\Debug\AlpcServer.exe

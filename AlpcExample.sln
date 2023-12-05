@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlpcClient", "AlpcClient\AlpcClient.vcxproj", "{63CE1630-2731-4E65-9CCF-D0B4057E8A42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlpcServer", "AlpcServer\AlpcServer.vcxproj", "{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlpcShared", "AlpcShared\AlpcShared.vcxitems", "{35B07791-1AE8-483C-B130-1BA6CDA55FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Debug|x64.ActiveCfg = Debug|x64
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Debug|x64.Build.0 = Debug|x64
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Debug|x86.ActiveCfg = Debug|Win32
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Debug|x86.Build.0 = Debug|Win32
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Release|x64.ActiveCfg = Release|x64
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Release|x64.Build.0 = Release|x64
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Release|x86.ActiveCfg = Release|Win32
+		{63CE1630-2731-4E65-9CCF-D0B4057E8A42}.Release|x86.Build.0 = Release|Win32
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Debug|x64.ActiveCfg = Debug|x64
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Debug|x64.Build.0 = Debug|x64
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Debug|x86.Build.0 = Debug|Win32
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Release|x64.ActiveCfg = Release|x64
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Release|x64.Build.0 = Release|x64
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Release|x86.ActiveCfg = Release|Win32
+		{4E27B3B8-2AEE-4EF0-AEF6-25712EFB691D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4594629-6EBD-4567-A407-131B1FD48231}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AlpcShared\AlpcShared.vcxitems*{35b07791-1ae8-483c-b130-1ba6cda55fb6}*SharedItemsImports = 9
+		AlpcShared\AlpcShared.vcxitems*{4e27b3b8-2aee-4ef0-aef6-25712efb691d}*SharedItemsImports = 4
+		AlpcShared\AlpcShared.vcxitems*{63ce1630-2731-4e65-9ccf-d0b4057e8a42}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
